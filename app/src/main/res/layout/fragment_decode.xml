@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center_horizontal">
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:padding="20dp">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/tv_decode_title"
+			android:textSize="19dp"
+			android:textStyle="bold"/>
+
+	</LinearLayout>
+
+    <android.support.v7.widget.CardView
+        style="@style/CardStyle.Home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_vertical">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/tv_input_title"
+			android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="right|center_vertical">
+
+			<ImageButton
+				android:layout_width="45dp"
+				android:layout_height="45dp"
+				android:src="@drawable/cmd_content_paste"
+				android:background="@drawable/ripple_round"
+				android:scaleType="centerCrop"
+				android:padding="10dp"
+				android:id="@+id/ib_paste_input_decode"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="100dp"
+		android:background="@drawable/bg_edittext"
+		android:ems="10"
+		android:padding="10dp"
+		android:id="@+id/et_decode"/>
+
+		</LinearLayout>
+	</android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        style="@style/CardStyle.Home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="10dp"
+				android:gravity="center_vertical">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/tv_output_title"
+					android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+					<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:gravity="right|center_vertical">
+
+						<ImageButton
+							android:layout_width="45dp"
+							android:layout_height="45dp"
+							android:src="@drawable/cmd_content_copy"
+							android:background="@drawable/ripple_round"
+							android:scaleType="centerCrop"
+							android:padding="10dp"
+							android:id="@+id/ib_copy_result_decode"/>
+
+					</LinearLayout>
+			</LinearLayout>
+
+			<EditText
+				android:layout_width="match_parent"
+				android:layout_height="100dp"
+				android:background="@drawable/bg_edittext"
+				android:ems="10"
+				android:padding="10dp"
+				android:id="@+id/et_decode_output"/>
+        
+		</LinearLayout>
+	</android.support.v7.widget.CardView>
+    
+    <android.support.v7.widget.CardView
+        style="@style/CardStyle.Small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:gravity="center_vertical|center_horizontal">
+            
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+        android:textColor="@color/colorButtonText"
+		android:text="@string/btn_decode"
+		android:id="@+id/btn_decode"
+		android:layout_marginTop="10dp"/>
+    
+		</LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
+
