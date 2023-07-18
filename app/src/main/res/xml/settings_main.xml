@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<PreferenceCategory 
+        android:key="about" 
+        android:title="@string/category_about">
+
+		<com.unknown60.entityencoder.ui.view.Preference
+			android:key="version"
+		    android:title="@string/set_title_app_version"/>
+
+		<com.unknown60.entityencoder.ui.view.Preference
+			android:key="license"
+		    android:title="@string/settings_license"/>
+
+		<com.unknown60.entityencoder.ui.view.Preference
+			android:key="github"
+		    android:title="@string/set_title_github"
+		    android:summary="@string/set_title_github_website"/>
+
+		<com.unknown60.entityencoder.ui.view.Preference
+			android:key="unknown60"
+		    android:title="@string/set_title_unknown60"
+		    android:summary="@string/set_title_unknown60_summary"/>
+
+		<com.unknown60.entityencoder.ui.view.Preference
+			android:key="karen"
+		    android:title="@string/set_title_karen"/>
+
+	</PreferenceCategory>
+
+</PreferenceScreen>
