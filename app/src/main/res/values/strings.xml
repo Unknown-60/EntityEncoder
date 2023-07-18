@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Entity Encoder</string>
+    <string name="btn_encode">Encode</string>
+    <string name="btn_decode">Decode</string>
+    <string name="tv_encode_title">ASCII to Entity</string>
+    <string name="tv_decode_title">Entity to ASCII</string>
+    <string name="tv_input_title">Input</string>
+    <string name="tv_output_title">Result</string>
+    <string name="result_copy">Result copied</string>
+    <string name="tooltip_about">About</string>
+    <string name="category_about">About</string>
+    <string name="set_title_app_version">Application version</string>
+    <string name="settings_license">Licenses</string>
+    <string name="set_title_unknown60">Developer</string>
+    <string name="set_title_unknown60_summary">Developed by Unknown-60</string>
+    <string name="set_title_github">Source Code</string>
+    <string name="set_title_github_website">Get source code of this app</string>
+    <string name="set_title_karen">Wish you were here with me</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ListPreference">
+        <attr name="entries" format="reference"/>
+        <attr name="entryValues" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="AutoWrapLayout">
+        <attr name="alignment">
+            <enum name="top" value="0" />
+            <enum name="center" value="1" />
+            <enum name="bottom" value="2" />
+        </attr>
+    </declare-styleable>
+
+</resources>
