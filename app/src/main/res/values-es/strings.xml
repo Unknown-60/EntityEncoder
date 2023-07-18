@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btn_encode">Codificar</string>
+    <string name="btn_decode">Decodificar</string>
+    <string name="tv_encode_title">ASCII a Entidad</string>
+    <string name="tv_decode_title">Entidad a ASCII</string>
+    <string name="tv_input_title">Entrada</string>
+    <string name="tv_output_title">Resultado</string>
+    <string name="result_copy">Resultado copiado</string>
+    <string name="tooltip_about">Acerca de...</string>
+    <string name="category_about">Acerca de</string>
+    <string name="set_title_app_version">Versión de aplicación</string>
+    <string name="settings_license">Licencias</string>
+    <string name="set_title_unknown60">Desarrollador</string>
+    <string name="set_title_unknown60_summary">Desarrollada Unknown-60</string>
+    <string name="set_title_github">Código fuente</string>
+    <string name="set_title_github_website">Obtener el código fuente de esta aplicación</string>
+    <string name="set_title_karen">Desearía que estuvieras aquí conmigo</string>
+</resources>
