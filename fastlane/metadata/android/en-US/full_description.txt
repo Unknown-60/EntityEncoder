@@ -1,0 +1,8 @@
+With Entity Encoder you will be able to encode ASCII texts and convert them into entities, or vice versa.
+
+Some features:
+
+- Light application.
+- Does not require an internet connection.
+- Friendly interface.
+- Support for HTML encoding.

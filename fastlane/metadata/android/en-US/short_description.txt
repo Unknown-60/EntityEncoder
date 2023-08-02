@@ -1,0 +1,1 @@
+Entity Encoder encodes ASCII text to entities, or vice versa.
