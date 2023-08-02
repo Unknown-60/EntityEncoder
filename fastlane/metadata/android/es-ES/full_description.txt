@@ -1,0 +1,8 @@
+Con Entity Encoder podrás codificar textos ASCII y convertirlos entidades, o viceversa.
+
+Algunas características:
+
+- Aplicación liviana.
+- No requiere de conexión a internet.
+- Interfaz amigable.
+- Soporte para codificación en HTML.

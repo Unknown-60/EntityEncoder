@@ -1,0 +1,1 @@
+Entity Encoder codifica textos ASCII a entidades, o viceversa.
